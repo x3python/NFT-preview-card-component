@@ -37,7 +37,7 @@ p.date{
     color: #fff;
     padding-left: 1rem;
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 p.price{
     color: hsl(178, 100%, 50%);
@@ -90,7 +90,7 @@ hr{
 .cr{
     display: flex;
     align-items: center;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     padding-left: 1rem;
 }
 .item{
