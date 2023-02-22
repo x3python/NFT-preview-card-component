@@ -14,10 +14,27 @@ main.card{
     max-width:min-content;
     border-radius: 1rem;
 }
+.img-area{
+    width: 100%;
+
+}
 img.eth-img{
     width: 300px;
     padding: 1.2rem;
     border-radius: 1.5rem;
+    position: relative;
+}
+img.eth-cover{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    border: hsl(178, 100%, 50%, 0) solid 107px;
+    margin-left: 1.2rem;
+    margin-top: -17.5rem;
+    border-radius: 0.4rem;
+    opacity: 0;
+}
+img.eth-cover:hover{
+    opacity: 1;
 }
 h1.title{
     color: #fff;
@@ -102,5 +119,5 @@ img.clock{
 
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; color:#fff;text-align:  center; }
 .attribution a { color: hsl(228, 45%, 44%); }
