@@ -25,6 +25,7 @@ h1.title{
     padding-right: 1.2rem;
     padding-bottom: 1.2rem;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 p.text{
     color: #fff;
@@ -36,17 +37,18 @@ p.date{
     color: #fff;
     padding-left: 1rem;
     font-weight: 300;
+    font-size: 0.9rem;
 }
 p.price{
     color: hsl(178, 100%, 50%);
     font-weight: 400;
+    font-size: 0.9rem;
 }
 p.creator{
     padding-left: 1rem;
     color: #fff;
     font-weight: 300;
     font-size: 0.9rem;
-    opacity: 0.5;
 }
 p.date{
     padding: 0;
@@ -64,6 +66,9 @@ a:visited{
 a:hover{
     color: hsl(178, 100%, 50%) ;
 }
+.cr-autor{
+    opacity: 0.5;
+}
 section.pr-dt{
     display: flex;
     align-items: center;
@@ -73,6 +78,7 @@ section.pr-dt{
     justify-content: space-between;
 }
 hr{
+    border: hsl(215, 32%, 27%) solid 1px;
     margin: 1.2rem;
 }
 .ava{
