@@ -14,7 +14,7 @@ main.card{
     max-width:min-content;
     border-radius: 1rem;
 }
-img{
+img.eth-img{
     width: 300px;
     padding: 1rem;
 }
@@ -24,9 +24,10 @@ h1.title{
     font-weight: 600;
 }
 p.text{
-    color: hsl(215, 32%, 27%);
+    color: #fff;
     padding-left: 1rem;
     font-weight: 300;
+    opacity: 0.5;
 }
 p.date{
     color: #fff;
@@ -37,28 +38,51 @@ p.price{
     color: hsl(178, 100%, 50%);
     font-weight: 400;
 }
+p.creator{
+    padding-left: 1rem;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+p.date{
+    padding: 0;
+    opacity: 0.5;
+}
+a:link{
+    color: #fff;
+    text-decoration: none;
+    opacity: none;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    color: hsl(178, 100%, 50%) ;
+}
 section.pr-dt{
     display: flex;
     align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
 }
 hr{
     margin: 1rem;
-    background-color: hsl(215, 32%, 27%);
 }
 .ava{
-    width: 5rem;
-    border: #fff solid;
-    border-radius: 100%;
-}
-.icon-eth{
-    width: 3rem;
-}
-.clock{
-    width: 3rem;
+    width: 2rem;
+    height: 2rem;
+    border: #fff solid 2px;
+    border-radius: 50%;
 }
 .cr{
     display: flex;
     align-items: center;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+.item{
+    display: flex;
 }
 
 
